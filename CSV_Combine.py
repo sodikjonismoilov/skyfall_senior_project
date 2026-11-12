@@ -12,7 +12,7 @@ folder = os.path.expanduser(
 
 files = gl.glob(folder + "/FOOD-DATA-GROUP*.csv")
 
-#Combining the CSv files into one big file
+#Combining the CSV files into one big file
 frames = []
 
 for file in files:
@@ -33,8 +33,8 @@ print("Combined_FOOD.csv created")
 
 #Hi everyone once you have run this code in your bash use the following command to open it:
 
-#open Combined_FOOD.csv
+#open Combined_FOOD.csv (Of course this will change for each new csv)
 
-#Make sure you are in the right folder i.e. Nutritrack (Name and Adrian came up with)
+#Make sure you are in the right folder i.e. Nutritrack (Name me and Adrian came up with)
 
 
